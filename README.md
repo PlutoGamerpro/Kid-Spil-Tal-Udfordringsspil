@@ -1,7 +1,7 @@
 # 🎮 Børne Spil - Tal Udfordringsspil
 
 ## 📝 Oversigt
-🎮👶**Børne Spil** er en Windows Forms-applikation, der opfordrer børn til at øve matematik ved at løse simple taludfordringer. Spillet præsenterer et tilfældigt tal og kræver, at spillerne beregner og indtaster fire svar relateret til dette tal. Det giver realtidsfeedback om brugernes inputnøjagtighed.
+🎮👶**Børne Spil** er en Windows Forms-applikation, der opfordrer børn til at øve matematik ved at løse simple taludfordringer. Spillet præsenterer et tilfældigt tal og kræver, at spillerne beregner og indtaster fire svar relateret til dette tal. Det giver realtidsfeedback om brugernes inputnøjagtighed ➕🕹️.
 
 ## ✨ Funktioner
 - 🎲 Genererer et tilfældigt tal mellem 11 og 89.
