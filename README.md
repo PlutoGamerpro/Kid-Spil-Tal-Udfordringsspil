@@ -81,7 +81,7 @@ textBox1.Text = "";
 - Farvekoderne i tekstfelterne er en vigtig del af spillet, da de giver øjeblikkelig feedback til brugeren. Når brugeren har indtastet deres svar og trykket på knappen, får de visuel feedback, så de kan se, hvor de har svaret korrekt eller forkert.
 
 
-![Diagram Description](B.drawio.svg)
+![Diagram Description](Børnespilfloatchart.svg)
 
 
 
