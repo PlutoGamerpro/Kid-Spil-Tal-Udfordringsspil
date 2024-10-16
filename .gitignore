@@ -12,6 +12,3 @@ obj/
 
 # NuGet packages
 packages/
-
-# Visual Studio Code settings
-.vscode/
