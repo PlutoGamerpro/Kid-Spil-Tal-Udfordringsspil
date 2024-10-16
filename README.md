@@ -143,6 +143,9 @@ Spillet fortsætter, indtil brugeren vælger at lukke applikationen.
 ## 🛠️ Hjælpeværktøj til Tal Udfordringer
 - Dette er et hjælpeværktøj, der viser nogle af de rigtige tal i Hundredetal Spillet. 🎯 Værktøjet hjælper brugerne med at forstå og finde korrekte svar i matematikopgaver ved at præsentere tal i et struktureret format
 
+## 📊 Taloversigt
+
+## Picked number 41
 
 |  1 |  2 |  3 |  4 |  5 |  6 |  7 |  8 |  9 | 10 |
 |---|---|---|---|---|---|---|---|---|---|
@@ -155,6 +158,8 @@ Spillet fortsætter, indtil brugeren vælger at lukke applikationen.
 | 71 | 72 | 73 | 74 | 75 | 76 | 77 | 78 | 79 | 80 |
 | 81 | 82 | 83 | 84 | 85 | 86 | 87 | 88 | 89 | 90 |
 | 91 | 92 | 93 | 94 | 95 | 96 | 97 | 98 | 99 | 100 |
+ 
+- Korrekt svar: $${\color{green}{42}}$$ - Korrekt svar: $${\color{green}{43}}$$ - Korrekt svar: $${\color{green}{43}}$$ - Korrekt svar: $${\color{green}{53}}$$
 
 
 - Dette værktøj hjælper brugerne med at se og identificere de tal, de skal arbejde med, og understøtter dem i deres matematiske læring. 🎉
