@@ -1,21 +1,24 @@
 # 🎮 Børne Spil - Tal Udfordringsspil
-Velkommen til Hundredetal Spillet! Dette er et interaktivt program, hvor du skal finde tal, der relaterer sig til et tilfældigt valgt hundredetal.
+
+Velkommen til Hundredetal Spillet! 🎉 Dette er et interaktivt program, hvor du skal finde tal, der relaterer sig til et tilfældigt valgt hundredetal. 🤔✨
 
 ## 📝 Oversigt
 
-🎮👶 **Børne Spil** er en Windows Forms-applikation, der opfordrer børn til at øve matematik ved at løse simple taludfordringer. Spillet præsenterer et tilfældigt tal og kræver, at spillerne beregner og indtaster fire svar relateret til dette tal:
+🎮👶 **Børne Spil** er en Windows Forms-applikation, der opfordrer børn til at øve matematik ved at løse simple taludfordringer. 🧠💡 Spillet præsenterer et tilfældigt tal og kræver, at spillerne beregner og indtaster fire svar relateret til dette tal:
 
-- 10 større end det valgte tal
-- 10 mindre end det valgte tal
-- 1 større end det valgte tal
-- 1 mindre end det valgte tal
+- ➕ 10 større end det valgte tal
+- ➖ 10 mindre end det valgte tal
+- ➕ 1 større end det valgte tal
+- ➖ 1 mindre end det valgte tal
 
-Spillet giver realtidsfeedback om brugernes inputnøjagtighed ➕🕹️
-
-
+Spillet giver realtidsfeedback om brugernes inputnøjagtighed, så alle kan lære og forbedre sig! 📈👍🎊
 
 
-![Diagram Description](blob.jfif)
+
+
+
+![Diagram Description](images/blob.jfif)
+
 
 
 
@@ -103,7 +106,7 @@ textBox1.Text = "";
 
 ## 🎮 Flowchart Beskrivelse for "Børne Spil"
 
-![Diagram Description](BørnespilDiagram1.svg)
+![Diagram Description](images/BørnespilDiagram1.svg)
 
 ### 🖥️ Start
 Spillet starter, når applikationen åbnes. 
