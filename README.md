@@ -3,6 +3,11 @@
 ## 📝 Oversigt
 🎮👶**Børne Spil** er en Windows Forms-applikation, der opfordrer børn til at øve matematik ved at løse simple taludfordringer. Spillet præsenterer et tilfældigt tal og kræver, at spillerne beregner og indtaster fire svar relateret til dette tal. Det giver realtidsfeedback om brugernes inputnøjagtighed ➕🕹️.
 
+
+![Diagram Description](blob.jfif)
+
+
+
 ## ✨ Funktioner
 - 🎲 Genererer et tilfældigt tal mellem 11 og 89.
 - 🧮 Beder brugerne om at løse grundlæggende matematiske problemer relateret til det genererede tal.
