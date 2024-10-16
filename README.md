@@ -81,6 +81,43 @@ textBox1.Text = "";
 - Farvekoderne i tekstfelterne er en vigtig del af spillet, da de giver øjeblikkelig feedback til brugeren. Når brugeren har indtastet deres svar og trykket på knappen, får de visuel feedback, så de kan se, hvor de har svaret korrekt eller forkert.
 
 
+
+
+## 🎮 Flowchart Beskrivelse for "Børne Spil"
+
+### 🖥️ Start
+Spillet starter, når applikationen åbnes. 
+
+### ⚙️ Initialiser Form
+`Form1` opretter instanser af `Game` og `AnswerChecker`. 
+
+### 🔄 Genstart Spil
+Når spillet genstartes:
+- `Restart()` kaldes for at nulstille spillet.
+- 🗑️ Tekstbokse tømmes, og baggrundsfarver resettes.
+- 🎲 Et tilfældigt tal genereres og vises til spilleren.
+
+### ✍️ Brugerinput
+Brugeren indtaster svar i fire tekstbokse. 
+
+### ✅ Tjek Svar (Knappen)
+Når brugeren klikker på "Submit":
+- 📊 Indtastningerne konverteres til en int-array.
+- `CheckAnswers()` kaldes for at evaluere svarene.
+- Baggrundsfarverne opdateres:
+  - 💚 Lysegrøn for korrekte svar.
+  - ❤️ Rød for forkerte svar.
+
+### 🔄 Forsøg Igen
+Brugeren kan klikke på "Retry" for at genstarte spillet og prøve igen. 
+
+### 🔢 Input Validering
+Kun numerisk input er tilladt i tekstboksene for at sikre korrekt indtastning. 
+
+### ❌ Slut
+Spillet fortsætter, indtil brugeren vælger at lukke applikationen. 
+
+
 ![Diagram Description](Børnespilfloatchart.svg)
 
 
