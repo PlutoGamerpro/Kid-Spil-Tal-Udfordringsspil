@@ -118,7 +118,7 @@ Kun numerisk input er tilladt i tekstboksene for at sikre korrekt indtastning.
 Spillet fortsætter, indtil brugeren vælger at lukke applikationen. 
 
 
-![Diagram Description](Børnespilfloatchart.svg)
+![Diagram Description](BørnespilDiagram1.svg)
 
 
 
