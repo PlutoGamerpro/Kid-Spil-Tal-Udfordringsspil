@@ -1,6 +1,17 @@
+# Build output directories
 bin/
 obj/
+
+# User-specific files
 *.suo
 *.user
 *.userprefs
+
+# Visual Studio solution and project-specific files
 *.sln.docstates
+
+# NuGet packages
+packages/
+
+# Visual Studio Code settings
+.vscode/
