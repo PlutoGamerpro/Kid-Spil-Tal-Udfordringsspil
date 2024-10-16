@@ -85,6 +85,8 @@ textBox1.Text = "";
 
 ## 🎮 Flowchart Beskrivelse for "Børne Spil"
 
+![Diagram Description](BørnespilDiagram1.svg)
+
 ### 🖥️ Start
 Spillet starter, når applikationen åbnes. 
 
@@ -116,10 +118,6 @@ Kun numerisk input er tilladt i tekstboksene for at sikre korrekt indtastning.
 
 ### ❌ Slut
 Spillet fortsætter, indtil brugeren vælger at lukke applikationen. 
-
-
-![Diagram Description](BørnespilDiagram1.svg)
-
 
 
 
