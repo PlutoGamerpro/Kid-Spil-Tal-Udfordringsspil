@@ -137,7 +137,7 @@ Brugeren kan klikke på "Retry" for at genstarte spillet og prøve igen.
 ### 🔢 Input Validering
 Kun numerisk input er tilladt i tekstboksene for at sikre korrekt indtastning. 
 
-### ❌ Slut
+### ❌ Slut 
 Spillet fortsætter, indtil brugeren vælger at lukke applikationen. 
 
 ## 🛠️ Hjælpeværktøj til Tal Udfordringer
