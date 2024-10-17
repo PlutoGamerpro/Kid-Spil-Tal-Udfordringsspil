@@ -152,14 +152,14 @@ Spillet fortsætter, indtil brugeren vælger at lukke applikationen.
 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 |
 | 21 | 22 | 23 | 24 | 25 | 26 | 27 | 28 | 29 | 30 |
 | 31 | 32 | _33_| 34 | 35 | 36 | 37 | 38 | 39 | 40 |
-| 41 | _42__ | ___43___ | _44_ | 45 | 46 | 47 | 48 | 49 | 50 |
+| 41 | 42 | 43 | 44 | 45 | 46 | 47 | 48 | 49 | 50 |
 | 51 | 52 | _53_ | 54 | 55 | 56 | 57 | 58 | 59 | 60 |
 | 61 | 62 | 63 | 64 | 65 | 66 | 67 | 68 | 69 | 70 |
 | 71 | 72 | 73 | 74 | 75 | 76 | 77 | 78 | 79 | 80 |
 | 81 | 82 | 83 | 84 | 85 | 86 | 87 | 88 | 89 | 90 |
 | 91 | 92 | 93 | 94 | 95 | 96 | 97 | 98 | 99 | 100 |
  
-- Korrekt svar: $${\color{lightgreen}{42}}$$ - Korrekt svar: $${\color{lightgreen}{43}}$$ - Korrekt svar: $${\color{lightgreen}{43}}$$ - Korrekt svar: $${\color{lightgreen}{53}}$$
+- Korrekt svar: $${\color{lightgreen}{43}}$$ - Korrekt svar: $${\color{lightgreen}{41}}$$ - Korrekt svar: $${\color{lightgreen}{52}}$$ - Korrekt svar: $${\color{lightgreen}{32}}$$
 
 
 - Dette værktøj hjælper brugerne med at se og identificere de tal, de skal arbejde med, og understøtter dem i deres matematiske læring. 🎉
