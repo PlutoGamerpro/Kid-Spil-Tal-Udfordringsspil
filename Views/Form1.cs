@@ -68,11 +68,11 @@ namespace Børne_Spil
             }
             PopulateTaloversigt();
 
-
+/*
             string filePath = @"C:\Users\GH\source\repos\Børne Spil\Børne Spil\STARSBACKGROUND1.jfif"; // Change this to your actual file path
             this.BackgroundImage = Image.FromFile(filePath);
             this.BackgroundImageLayout = ImageLayout.Stretch; // or any other layout you prefer
-
+*/
             
 
 
