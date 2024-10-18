@@ -59,6 +59,132 @@ Correct_answerbox3 = Random_Number - 10;
 Correct_answerbox4 = Random_Number - 1;
 
 ```
+## 🖱️ Button_MouseDown
+ - Description:
+Handles the MouseDown event for buttons. When a button is pressed, it reduces its size slightly, providing visual feedback.
+```csharp
+private void Button_MouseDown(object sender, MouseEventArgs e)
+{
+    if (sender is Button button)
+    {
+        button.Size = new Size(button.Width - 5, button.Height - 5); // Make the button smaller
+    }
+}
+```
+## ⏳ StartCountdown
+- Initializes the countdown timer to 20 seconds and updates the UI to display the starting time with an hourglass emoji.
+
+
+## 🔄 StartContinuousUpdate
+- Starts an asynchronous continuous update loop that checks if all text boxes are filled every 16 milliseconds, simulating a frame rate of approximately 60 FPS
+ ```csharp
+private void StartCountdown()
+{
+    countdownTime = 20; // Example: 20 seconds
+    LABEL_COUNTDOWN.Text = countdownTime.ToString() + "⏳";
+}
+```
+
+## ✅ CHECKSUBMIT
+- Checks if all input text boxes are filled. If they are, enables the button to check answers and updates its appearance.
+ ```csharp
+private async void StartContinuousUpdate()
+{
+    _cts = new CancellationTokenSource();
+    await Task.Run(() =>
+    {
+        while (!_cts.Token.IsCancellationRequested)
+        {
+            CHECKSUBMIT();
+            Thread.Sleep(16); // ~60 FPS
+        }
+    });
+}
+  ```
+  
+## 🔄 RestartCountdown
+-  Restarts the countdown timer, resetting it to 20 seconds and updating the displayed countdown time in the UI.
+ ```csharp
+  private void CHECKSUBMIT()
+{
+    if (AreAllTextBoxesFilled())
+    {
+        Invoke((MethodInvoker)(() =>
+        {
+            button1.Enabled = true;
+            button1.BackColor = Color.LimeGreen;
+            button1.Text = "Check answers ✔️";
+        }));
+    }
+}
+```
+
+## 🔄 Restart
+- Resets the game state, clearing text boxes and resetting colors. Generates a new random number and updates the UI accordingly.
+ ```csharp
+  private void RestartCountdown()
+{
+    timer8.Start(); // Start the timer again
+    countdownTime = 20; // Reset countdown time
+    LABEL_COUNTDOWN.Text = countdownTime.ToString() + "⏳"; // Update the UI
+}
+```
+
+## 📋 button1_Click
+ - Handles the click event for the check answers button. Retrieves user inputs, checks them against correct answers, and updates the UI if all answers are correct.
+```csharp
+private void Restart()
+{
+    panel1.Visible = false;
+    button2.Visible = false;
+    button4.Visible = false;
+
+    textBox1.Text = "";
+    textBox2.Text = "";
+    textBox3.Text = "";
+    textBox4.Text = "";
+
+    ResetTextBoxColors();
+    game.GenerateRandomNumber();
+    RandomNumHighligt = game.RandomNumber;
+    RestartCountdown();
+
+    stxNumber.Text = game.RandomNumber.ToString();
+    PopulateTaloversigt();
+    CHECKButtonState();
+}
+```
+
+## 🌟 IncrementSteakText_Display
+- Increments the player's streak score each time they succeed and updates the displayed score on the UI.
+
+## 🔄 ResetSteakTest_Display
+- Resets the player's streak score to zero and updates the UI to reflect this change.
+ 
+## 🎨 ResetTextBoxColors
+-  Resets the background colors of the input text boxes to white and the countdown label to a green colo
+
+
+## ✔️ AreAllTextBoxesFilled
+-  Checks if all text boxes are filled with input. Returns true if all are filled; otherwise, returns false.
+
+## 🔄 RETRY_BTN_Click
+- Handles the click event for the retry button. Restarts the game by calling the Restart method.
+
+## 🔢 TextBox_KeyPress
+- Restricts input in the text boxes to numeric characters only, handling and ignoring non-numeric input.
+
+## 📊 PopulateTaloversigt
+-  Populates a helper tool matrix with numbers, dynamically creating rows and columns while highlighting a specific cell based on a random number.
+
+## 🔄 Enable_Disable_HELP_TOOL_Click
+-  Toggles the visibility of the helper tool matrix when the corresponding button is clicked and updates the button text.
+
+
+## ⏲️ timer8_Tick
+- Handles the countdown timer's tick event. Updates the countdown label and stops the timer when it reaches zero, displaying a message to the user.
+
+  
 ## 🖊️ Brugeren indtaster svar i tekstfelte
 - Brugeren indtaster deres svar i fire tekstfelter. For hvert felt bliver input valideret, så kun tal er tilladt:
 - KeyPress: Sørger for, at brugeren kun kan indtaste numeriske værdier.
@@ -68,6 +194,7 @@ private void textBox1_KeyPress(object sender, KeyPressEventArgs e)
     e.Handled = !char.IsControl(e.KeyChar) && !char.IsNumber(e.KeyChar); // Kun tal er tilladt
 }
 ```
+
 ## ✅ Tjekker om svarene er korrekte
 - Når brugeren klikker på knappen for at indsende sine svar, tjekker programmet, om de indtastede værdier stemmer overens med de korrekte svar:
 - CheckAnswer: Funktion, der sammenligner brugerens input med de korrekte svar og farvekoder felterne (grøn = korrekt, rød = forkert).
