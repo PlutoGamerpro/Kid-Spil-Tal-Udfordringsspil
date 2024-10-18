@@ -7,28 +7,31 @@ Velkommen til Hundredetal Spillet! 🎉 Dette er et interaktivt program, hvor du
  1. [Flowchart Beskrivelse for "Børne Spil"](#-flowchart-beskrivelse-for-børne-spil)
 
 
-## 🧩 Metoder
-1. 🖱️ [Button_MouseDown](#button-mousedown)
-2. ⏳ [StartCountdown](#startcountdown)  
-3. ✅ [CHECKSUBMIT](#checksubmit) 
-4. 🔄 [StartContinuousUpdate](#startcontinuousupdate)
-5. 🔄 [RestartCountdown](#restartcountdown)
-6. 🔄 [Restart](#restart)
-7. 🎨 [ResetTextBoxColors](#resettextboxcolors)
-8. 📋 [button1_Click](#button1-click)
-9. 🌟 [IncrementSteakText_Display](#incrementsteaktext-display)
-10. 🔄 [AreAllTextBoxesFilled](#arealltextboxesfilled)
-11. ✔️ [RETRY_BTN_Click](#retry-btn-click)
-12. 🔢 [TextBox_KeyPress](#textbox-keypress)
-13. [PopulateTaloversigt](#populatetaloversigt)
-14.  [PopulateTaloversigt](#-populatetaloversigt) 
-    
-    
+## 🧩 Metoder PART 2
+1. 🖱️  [Button_MouseDown](#-button_mousedown)
+2. ⏳  [StartCountdown](#-startcountdown)  
+3. ✅  [CHECKSUBMIT](#-checksubmit) 
+4. 🔄  [StartContinuousUpdate](#-startcontinuousupdate)
+5. 🔄  [RestartCountdown](#-restartcountdown)
+6. 🔄  [Restart](#-restart)
+7. 🎨  [ResetTextBoxColors](#-resettextboxcolors)
+8. 📋  [button1_Click](#-button1-click)
+
+## 🧩 Metoder PART 1
+1. 🌟 [IncrementSteakText_Display](#-incrementsteaktext_display)
+2. 🔄 [AreAllTextBoxesFilled](#-arealltextboxesfilled)
+3. ✔️ [RETRY_BTN_Click](#-retry_btn_click)
+4. 🔢 [TextBox_KeyPress](#-textbox_keypress)
+5. 📊 [PopulateTaloversigt](#-populatetaloversigt)
+6. 🔄 [Enable_Disable_HELP_TOOL_Click](#-enable_disable_help_tool_click)
+7. ⏲️ [timer8_Tick](#-timer8_tick)
+   
+   
 
 
-13. 🔢  [TextBox_KeyPress](#-textbox_keypress) 
-14. [PopulateTaloversigt](#-populatetaloversigt)  
-15. [Enable_Disable_HELP_TOOL_Click](#-enable_disable_help_tool_click) 
+
+   
+
 16. [timer8_Tick](#-timer8_tick)
 19. 
 20. 
