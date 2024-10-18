@@ -11,7 +11,7 @@ Velkommen til Hundredetal Spillet! 🎉 Dette er et interaktivt program, hvor du
  2. 🎨 [UI GAME](#-ui-game) 
 
 ## 🧩 Metoder PART 1
-1. 🖱️ [Button MouseDown](#🖱️-button-mousedown) 
+1. 🖱️ [Button MouseDown](#-button-mousedown) 
 2. ⏳  [StartCountdown](#-startcountdown)  
 3. ✅  [CHECKSUBMIT](#-checksubmit) 
 4. 🔄  [StartContinuousUpdate](#-startcontinuousupdate)
