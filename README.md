@@ -15,6 +15,11 @@ Velkommen til Hundredetal Spillet! 🎉 Dette er et interaktivt program, hvor du
 9. [button1_Click](#-button1-click)
 10.[IncrementSteakText_Display](#-incrementsteaktext_display)
 11.[AreAllTextBoxesFilled](#-arealltextboxesfilled)
+
+
+   
+
+11.[AreAllTextBoxesFilled](#-arealltextboxesfilled)
 12.[AreAllTextBoxesFilled](#-retry-btn-click)   
 ## 📝 Oversigt
 
