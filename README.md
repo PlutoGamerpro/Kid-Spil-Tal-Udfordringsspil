@@ -13,14 +13,11 @@ Velkommen til Hundredetal Spillet! 🎉 Dette er et interaktivt program, hvor du
 7. [Restart](#-restart)
 8. [ResetTextBoxColors](#-resettextboxcolors)
 9. [button1_Click](#-button1-click)
-10.[IncrementSteakText_Display](#-incrementsteaktext_display)
-11.[AreAllTextBoxesFilled](#-arealltextboxesfilled)
-
-
+10. [IncrementSteakText_Display](#-incrementsteaktext_display)
+11. [AreAllTextBoxesFilled](#-arealltextboxesfilled)
+12. [AreAllTextBoxesFilled](#-retry-btn-click)
+13. 
    
-
-11.[AreAllTextBoxesFilled](#-arealltextboxesfilled)
-12.[AreAllTextBoxesFilled](#-retry-btn-click)   
 ## 📝 Oversigt
 
 🎮👶 **Børne Spil** er en Windows Forms-applikation, der opfordrer børn til at øve matematik ved at løse simple taludfordringer. 🧠💡 Spillet præsenterer et tilfældigt tal og kræver, at spillerne beregner og indtaster fire svar relateret til dette tal:
