@@ -18,19 +18,21 @@ Velkommen til Hundredetal Spillet! 🎉 Dette er et interaktivt program, hvor du
 
 ---
 
-## 🛠️ Fejlmeddelelser og Løsninger
-**Fejl: Kunne ikke behandle filen `..\Views\Form1.resx, da den er i Internet- eller Begrænset zone eller har markeringen fra internettet.`**
+## 🛠️ Error Messages and Solutions
+**Error: Could not process the file `..\Views\Form1.resx, as it is in the Internet or Restricted zone or has an Internet marking.`**
 
-For at løse dette problem, følg disse trin:
+To resolve this issue, follow these steps:
 
-1. 🖱️ Højreklik på **Form1.resx** filen i Stifinder.
-2. 📄 Vælg **Egenskaber** fra kontekstmenuen.
-3. 🔒 Kig efter **Fjern blokering** afkrydsningsfeltet nederst i Egenskabsvinduet.
-4. ✅ Hvis **Fjern blokering** muligheden er tilgængelig, skal du markere boksen og klikke **OK**.
-5. 📂 Hvis **Fjern blokering** ikke er synligt, kan du prøve at flytte filen til en anden mappe (som din Skrivebord) og derefter tilbage til dens oprindelige placering.
-6. 🔄 Genåbn Visual Studio og genopbyg dit projekt.
+1. 🖱️ Right-click on the **Form1.resx** file in File Explorer.
+2. 📄 Select **Properties** from the context menu.
+3. 🔒 Look for the **Unblock** checkbox at the bottom of the Properties window.
+4. ✅ If the **Unblock** option is available, check the box and click **OK**.
+5. 📂 If **Unblock** is not visible, try moving the file to another folder (like your Desktop) and then back to its original location.
+6. 🔄 Reopen Visual Studio and rebuild your project.
 
-Dette fjerner markeringen fra internettet fra filen, så den kan behandles korrekt. 
+This removes the Internet marking from the file so it can be processed correctly. 🚀
+
+---
 
 
 ## 🧩 Metoder
