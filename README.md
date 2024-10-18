@@ -13,7 +13,18 @@ Velkommen til Hundredetal Spillet! 🎉 Dette er et interaktivt program, hvor du
 
 Spillet giver realtidsfeedback om brugernes inputnøjagtighed, så alle kan lære og forbedre sig! 📈👍🎊
 
+Fejl: Kunne ikke behandle filen ```..\Views\Form1.resx, da den er i Internet- eller Begrænset zone eller har markeringen fra internettet.```
 
+For at løse dette problem, følg disse trin:
+
+1. 🖱️ Højreklik på **Form1.resx** filen i Stifinder.
+2. 📄 Vælg **Egenskaber** fra kontekstmenuen.
+3. 🔒 Kig efter **Fjern blokering** afkrydsningsfeltet nederst i Egenskabsvinduet.
+4. ✅ Hvis **Fjern blokering** muligheden er tilgængelig, skal du markere boksen og klikke **OK**.
+5. 📂 Hvis **Fjern blokering** ikke er synligt, kan du prøve at flytte filen til en anden mappe (som din Skrivebord) og derefter tilbage til dens oprindelige placering.
+6. 🔄 Genåbn Visual Studio og genopbyg dit projekt.
+
+Dette fjerner markeringen fra internettet fra filen, så den kan behandles korrekt. 🚀
 
 
 
