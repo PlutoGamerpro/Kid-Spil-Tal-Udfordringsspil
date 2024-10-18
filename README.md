@@ -427,8 +427,11 @@ Kun numerisk input er tilladt i tekstboksene for at sikre korrekt indtastning.
 ### ❌ Slut 
 Spillet fortsætter, indtil brugeren vælger at lukke applikationen. 
 
+---
+
 ## 🛠️ Hjælpeværktøj til Tal Udfordringer
 - Dette er et hjælpeværktøj, der viser nogle af de rigtige tal i Hundredetal Spillet. 🎯 Værktøjet hjælper brugerne med at forstå og finde korrekte svar i matematikopgaver ved at præsentere tal i et struktureret format
+
 
 ## 📊 Taloversigt
 
@@ -450,6 +453,8 @@ Spillet fortsætter, indtil brugeren vælger at lukke applikationen.
 
 
 - Dette værktøj hjælper brugerne med at se og identificere de tal, de skal arbejde med, og understøtter dem i deres matematiske læring. 🎉
+
+---
 
 ## 🙌 Tak for din tid!
 
