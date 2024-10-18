@@ -53,7 +53,7 @@ For at løse dette problem, følg disse trin:
 
 Dette fjerner markeringen fra internettet fra filen, så den kan behandles korrekt. 🚀
 
-## 📊 UI GAME
+## 🎨 UI GAME
 
 ![Diagram Description](images/KIDGAME.png)
 
