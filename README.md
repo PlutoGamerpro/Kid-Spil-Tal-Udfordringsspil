@@ -440,7 +440,7 @@ Spillet fortsætter, indtil brugeren vælger at lukke applikationen.
 | 81 | 82 | 83 | 84 | 85 | 86 | 87 | 88 | 89 | 90 |
 | 91 | 92 | 93 | 94 | 95 | 96 | 97 | 98 | 99 | 100 |
  
-- Korrekt svar: $${\color{lightgreen}{42}}$$
+-  ## ✅ Korrekt svar: $${\color{lightgreen}{42}}$$
 
 
 - Dette værktøj hjælper brugerne med at se og identificere de tal, de skal arbejde med, og understøtter dem i deres matematiske læring. 🎉
