@@ -10,7 +10,7 @@ Velkommen til Hundredetal Spillet! 🎉 Dette er et interaktivt program, hvor du
 ## 🧩 Metoder
 2. 🖱️ [Button_MouseDown](#-button_mousedown)
 3. ⏳ [StartCountdown](#-startcountdown)  
-4.  [CHECKSUBMIT](#-checksubmit) 
+4. ✅ [CHECKSUBMIT](#-checksubmit) 
 5.  [StartContinuousUpdate](#-startcontinuousupdate)
 6.  [RestartCountdown](#-restartcountdown)
 7.  [Restart](#-restart)
@@ -109,22 +109,7 @@ private void StartCountdown()
 }
 ```
 
-## 🔄 StartContinuousUpdate
-- Starts an asynchronous continuous update loop that checks if all text boxes are filled every 16 milliseconds, simulating a frame rate of approximately 60 FPS
- ```csharp
-private async void StartContinuousUpdate()
-{
-    _cts = new CancellationTokenSource();
-    await Task.Run(() =>
-    {
-        while (!_cts.Token.IsCancellationRequested)
-        {
-            CHECKSUBMIT();
-            Thread.Sleep(16); // ~60 FPS
-        }
-    });
-}
-  ```
+ ```
 ## ✅ CHECKSUBMIT
 - Checks if all input text boxes are filled. If they are, enables the button to check answers and updates its appearance.
  ```csharp
@@ -141,6 +126,24 @@ private async void StartContinuousUpdate()
     }
 }
 ```
+
+
+## 🔄 StartContinuousUpdate
+- Starts an asynchronous continuous update loop that checks if all text boxes are filled every 16 milliseconds, simulating a frame rate of approximately 60 FPS
+ ```csharp
+private async void StartContinuousUpdate()
+{
+    _cts = new CancellationTokenSource();
+    await Task.Run(() =>
+    {
+        while (!_cts.Token.IsCancellationRequested)
+        {
+            CHECKSUBMIT();
+            Thread.Sleep(16); // ~60 FPS
+        }
+    });
+}
+ 
  
   
 ## 🔄 RestartCountdown
