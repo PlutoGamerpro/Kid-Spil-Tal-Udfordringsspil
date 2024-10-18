@@ -8,8 +8,8 @@ Velkommen til Hundredetal Spillet! 🎉 Dette er et interaktivt program, hvor du
 
 
 ## 🧩 Metoder
-2.  [Button_MouseDown](#-button_mousedown)
-3.  [StartCountdown](#-startcountdown)  
+2. 🖱️ [Button_MouseDown](#-button_mousedown)
+3. ⏳ [StartCountdown](#-startcountdown)  
 4.  [CHECKSUBMIT](#-checksubmit) 
 5.  [StartContinuousUpdate](#-startcontinuousupdate)
 6.  [RestartCountdown](#-restartcountdown)
