@@ -17,7 +17,7 @@ Spillet giver realtidsfeedback om brugernes inputnøjagtighed, så alle kan lær
 
 
 
-![Diagram Description](images/Børnespilpng.png)
+![Diagram Description](images/KIDGAME.png)
 
 
 
