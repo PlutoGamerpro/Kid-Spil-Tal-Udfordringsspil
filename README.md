@@ -2,46 +2,40 @@
 
 Velkommen til Hundredetal Spillet! 🎉 Dette er et interaktivt program, hvor du skal finde tal, der relaterer sig til et tilfældigt valgt hundredetal. 🤔✨
 
-## ✨ Functions
+# ✨ Functions
 1. ✨ [Funktioner](#-funktioner)
 
 ---
 
-## 📊 UI / Diagrammer
+# 📊 UI / Diagrammer
 1. 📊 [Flowchart Beskrivelse for "Børne Spil"](#-flowchart-beskrivelse-for-børne-spil)
 2. 🎨 [UI GAME](#-ui-game)
 
 ---
 
-## 🧩 Metoder PART 1: Restart and Related Functions
+## 🧩 Metoder
+#### Restart and Continuous Functions
 1. 🔄 [Restart](#-restart)
 2. 🔄 [RestartCountdown](#-restartcountdown)
 3. 🔄 [StartContinuousUpdate](#-startcontinuousupdate)
 
----
-
-## 🧩 Metoder PART 2: Input Handling
+#### ✏️ Input and Interaction Handling
 1. 🖱️ [Button MouseDown](#-button-mousedown)
 2. ✅ [CHECKSUBMIT](#-checksubmit)
 3. ⏳ [StartCountdown](#-startcountdown)
 4. 📋 [button1_Click](#-button1-click)
 
----
-
-## 🧩 Metoder PART 3: Text Box Management
+#### ⏰ Text Box and Timer Management 
 1. 🎨 [ResetTextBoxColors](#-resettextboxcolors)
 2. 🌟 [IncrementSteakText_Display](#-incrementsteaktext_display)
 3. 🔄 [AreAllTextBoxesFilled](#-arealltextboxesfilled)
 4. 🔢 [TextBox_KeyPress](#-textbox_keypress)
+5. ⏲️ [Timer8_Tick](#-timer8_tick)
+6. 🔄 [Enable_Disable_HELP_TOOL_Click](#-enable_disable_help_tool_click)
+7. 🔄 [RETRY_BTN_Click](#-retry_btn_click)
+8. 📊 [PopulateTaloversigt](#-populatetaloversigt)
 
----
-
-## 🧩 Metoder PART 4: Timer and Utility Functions
-1. ⏲️ [Timer8_Tick](#-timer8_tick)
-2. 🔄 [Enable_Disable_HELP_TOOL_Click](#-enable_disable_help_tool_click)
-3. 🔄 [RETRY_BTN_Click](#-retry_btn_click)
-4. 📊 [PopulateTaloversigt](#-populatetaloversigt)
-   
+---   
   
   
 ## 📝 Oversigt
