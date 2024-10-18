@@ -8,7 +8,7 @@ Velkommen til Hundredetal Spillet! 🎉 Dette er et interaktivt program, hvor du
  2. 🎨 [UI GAME](#-ui-game) 
 
 
-## 🧩 Metoder PART 2
+## 🧩 Metoder PART 1
 1. 🖱️  [Button_MouseDown](#-button_mousedown)
 2. ⏳  [StartCountdown](#-startcountdown)  
 3. ✅  [CHECKSUBMIT](#-checksubmit) 
@@ -18,7 +18,7 @@ Velkommen til Hundredetal Spillet! 🎉 Dette er et interaktivt program, hvor du
 7. 🎨  [ResetTextBoxColors](#-resettextboxcolors)
 8. 📋  [button1_Click](#-button1-click)
 
-## 🧩 Metoder PART 1
+## 🧩 Metoder PART 2
 1. 🌟 [IncrementSteakText_Display](#-incrementsteaktext_display)
 2. 🔄 [AreAllTextBoxesFilled](#-arealltextboxesfilled)
 3. ✔️ [RETRY_BTN_Click](#-retry_btn_click)
