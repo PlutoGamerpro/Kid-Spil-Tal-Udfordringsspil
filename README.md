@@ -2,6 +2,11 @@
 
 Velkommen til Hundredetal Spillet! 🎉 Dette er et interaktivt program, hvor du skal finde tal, der relaterer sig til et tilfældigt valgt hundredetal. 🤔✨
 
+## 🎨 UI GAME
+
+![Diagram Description](images/KIDGAME.png)
+
+
 # ✨ Functions
 1. ✨ [Funktioner](#-funktioner)
 
@@ -61,12 +66,6 @@ For at løse dette problem, følg disse trin:
 6. 🔄 Genåbn Visual Studio og genopbyg dit projekt.
 
 Dette fjerner markeringen fra internettet fra filen, så den kan behandles korrekt. 🚀
-
-## 🎨 UI GAME
-
-![Diagram Description](images/KIDGAME.png)
-
-
 
 
 
