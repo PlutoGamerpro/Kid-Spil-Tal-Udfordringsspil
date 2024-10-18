@@ -8,24 +8,23 @@ Velkommen til Hundredetal Spillet! 🎉 Dette er et interaktivt program, hvor du
 
 
 ## 🧩 Metoder
-1. [Funktioner](#-funktioner)
-2. [Button_MouseDown](#-button_mousedown)
-3. [StartCountdown](#-startcountdown)
-4. [StartContinuousUpdate](#-startcontinuousupdate)
-5. [StartContinuousUpdate](#-startcontinuousupdate)
-6. [RestartCountdown](#-restartcountdown)
-7. [Restart](#-restart)
-8. [ResetTextBoxColors](#-resettextboxcolors)
-9. [button1_Click](#-button1-click)
-10. [IncrementSteakText_Display](#-incrementsteaktext_display)
-11. [AreAllTextBoxesFilled](#-arealltextboxesfilled)
-12. [RETRY_BTN_Click](#-retry_btn_click)
-13. [TextBox_KeyPress](#-textbox_keypress) 
-14. [PopulateTaloversigt](#-populatetaloversigt)  
-15. [Enable_Disable_HELP_TOOL_Click](#-enable_disable_help_tool_click) 
-16. [timer8_Tick](#-timer8_tick) 
-17. [Brugeren indtaster svar i tekstfelte](#-brugeren-indtaster-svar-i-tekstfelte)
-18. [Brugeren indtaster svar i tekstfelte](#-brugeren-indtaster-svar-i-tekstfelte)
+1. [Funktioner](#funktioner)
+2. [Button_MouseDown](#button-mousedown)
+3. [StartCountdown](#startcountdown)
+4. [StartContinuousUpdate](#startcontinuousupdate)
+5. [RestartCountdown](#restartcountdown)
+6. [Restart](#restart)
+7. [ResetTextBoxColors](#resettextboxcolors)
+8. [button1_Click](#button1-click)
+9. [IncrementSteakText_Display](#incrementsteaktext-display)
+10. [AreAllTextBoxesFilled](#arealltextboxesfilled)
+11. [RETRY_BTN_Click](#retry-btn-click)
+12. [TextBox_KeyPress](#textbox-keypress)
+13. [PopulateTaloversigt](#populatetaloversigt)
+14. [Enable_Disable_HELP_TOOL_Click](#enable-disable-help-tool-click)
+15. [timer8_Tick](#timer8-tick)
+16. [Brugeren indtaster svar i tekstfelte](#brugeren-indtaster-svar-i-tekstfelte)
+
 19. 
 20. 
 21. 
