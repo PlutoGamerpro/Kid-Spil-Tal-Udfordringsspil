@@ -4,7 +4,7 @@ Velkommen til Hundredetal Spillet! 🎉 Dette er et interaktivt program, hvor du
 
 ## 🧩 Metoder
 1. [Funktioner](#-funktioner)
-2. [Flowchart](#-flowchart)
+2. [Flowchart Beskrivelse for "Børne Spil"](#-flowchart-beskrivelse-for-børne-spil)
 3. [Button_MouseDown](#-button-mousedown)
 4. [StartCountdown](#-startcountdown)
 5. [StartContinuousUpdate](#-startcontinuousupdate)
@@ -17,10 +17,14 @@ Velkommen til Hundredetal Spillet! 🎉 Dette er et interaktivt program, hvor du
 11. [AreAllTextBoxesFilled](#-arealltextboxesfilled)
 12. [RETRY_BTN_Click](#-retry_btn_click)
 13. [TextBox_KeyPress](#-textbox_keypress) 
-14. [PopulateTaloversigt](#-populatetaloversigt)
-15. 
-16. 
-17. 
+14. [PopulateTaloversigt](#-populatetaloversigt)  
+15. [Enable_Disable_HELP_TOOL_Click](#-enable_disable_help_tool_click) 
+16. [timer8_Tick](#-timer8_tick) 
+17. [Brugeren indtaster svar i tekstfelte](#-brugeren-indtaster-svar-i-tekstfelte)
+18. [Brugeren indtaster svar i tekstfelte](#-brugeren-indtaster-svar-i-tekstfelte)
+19. 
+20. 
+21. 
    
 ## 📝 Oversigt
 
