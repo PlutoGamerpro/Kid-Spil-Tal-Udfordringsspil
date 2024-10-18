@@ -2,12 +2,16 @@
 
 Velkommen til Hundredetal Spillet! 🎉 Dette er et interaktivt program, hvor du skal finde tal, der relaterer sig til et tilfældigt valgt hundredetal. 🤔✨
 
+
+## 📊 Flowchart
+ 1. [Flowchart Beskrivelse for "Børne Spil"](#-flowchart-beskrivelse-for-børne-spil)
+
+
 ## 🧩 Metoder
 1. [Funktioner](#-funktioner)
-2. [Flowchart Beskrivelse for "Børne Spil"](#-flowchart-beskrivelse-for-børne-spil)
-3. [Button_MouseDown](#-button-mousedown)
-4. [StartCountdown](#-startcountdown)
-5. [StartContinuousUpdate](#-startcontinuousupdate)
+2. [Button_MouseDown](#-button-mousedown)
+3. [StartCountdown](#-startcountdown)
+4. [StartContinuousUpdate](#-startcontinuousupdate)
 5. [StartContinuousUpdate](#-startcontinuousupdate)
 6. [RestartCountdown](#-restartcountdown)
 7. [Restart](#-restart)
