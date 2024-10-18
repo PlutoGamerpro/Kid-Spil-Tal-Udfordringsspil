@@ -5,7 +5,7 @@ Velkommen til Hundredetal Spillet! 🎉 Dette er et interaktivt program, hvor du
 
 ## 📊 UI / Diagrammer
  1. 📊 [Flowchart Beskrivelse for "Børne Spil"](#-flowchart-beskrivelse-for-børne-spil)
- 2. 
+ 2. 📊 [UI] 
 
 
 ## 🧩 Metoder PART 2
@@ -53,7 +53,7 @@ For at løse dette problem, følg disse trin:
 
 Dette fjerner markeringen fra internettet fra filen, så den kan behandles korrekt. 🚀
 
-## 📊 Flowchart
+## 📊 UI Diagram
 
 ![Diagram Description](images/KIDGAME.png)
 
