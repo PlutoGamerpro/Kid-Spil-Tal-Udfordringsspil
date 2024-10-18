@@ -25,7 +25,7 @@ Velkommen til Hundredetal Spillet! 🎉 Dette er et interaktivt program, hvor du
 4. 🔢 [TextBox_KeyPress](#-textbox_keypress)
 5. 📊 [PopulateTaloversigt](#-populatetaloversigt)
 6. 🔄 [Enable_Disable_HELP_TOOL_Click](#-enable_disable_help_tool_click)
-7. ⏲️ [timer8_Tick](#-timer8_tick) 
+7. ⏲️ [Timer8_Tick](#-timer8_tick) 
    
   
   
@@ -328,7 +328,7 @@ private void Enable_Disable_HELP_TOOL_Click(object sender, EventArgs e)
 }
 ```
 
-## ⏲️ timer8_Tick
+## ⏲️ Timer8_Tick
 - Handles the countdown timer's tick event. Updates the countdown label and stops the timer when it reaches zero, displaying a message to the user.
  ```csharp
 - private void timer8_Tick(object sender, EventArgs e)
