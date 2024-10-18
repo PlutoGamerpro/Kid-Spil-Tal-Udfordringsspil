@@ -2,11 +2,13 @@
 
 Velkommen til Hundredetal Spillet! 🎉 Dette er et interaktivt program, hvor du skal finde tal, der relaterer sig til et tilfældigt valgt hundredetal. 🤔✨
 
+## ✨ Functions
+1. ✨ [Funktioner](#-funktioner)
+
 
 ## 📊 UI / Diagrammer
  1. 📊 [Flowchart Beskrivelse for "Børne Spil"](#-flowchart-beskrivelse-for-børne-spil)
  2. 🎨 [UI GAME](#-ui-game) 
-
 
 ## 🧩 Metoder PART 1
 1. 🖱️  [Button_MouseDown](#-button_mousedown) 
