@@ -108,7 +108,7 @@ private void StartCountdown()
 }
 ```
 
- ```
+
 ## ✅ CHECKSUBMIT
 - Checks if all input text boxes are filled. If they are, enables the button to check answers and updates its appearance.
  ```csharp
