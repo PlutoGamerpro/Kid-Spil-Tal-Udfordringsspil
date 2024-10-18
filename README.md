@@ -9,7 +9,7 @@ Velkommen til Hundredetal Spillet! 🎉 Dette er et interaktivt program, hvor du
 
 ## 🧩 Metoder
 1. [Funktioner](#-funktioner)
-2. [Button_MouseDown](#-button-mousedown)
+2. [Button_MouseDown](#-button_mousedown)
 3. [StartCountdown](#-startcountdown)
 4. [StartContinuousUpdate](#-startcontinuousupdate)
 5. [StartContinuousUpdate](#-startcontinuousupdate)
