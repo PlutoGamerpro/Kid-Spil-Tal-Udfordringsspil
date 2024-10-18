@@ -10,13 +10,14 @@ Velkommen til Hundredetal Spillet! 🎉 Dette er et interaktivt program, hvor du
 
 ## 🧩 Metoder PART 1
 1. 🖱️  [Button_MouseDown](#-button_mousedown)
-2. ⏳  [StartCountdown](#-startcountdown)  
-3. ✅  [CHECKSUBMIT](#-checksubmit) 
-4. 🔄  [StartContinuousUpdate](#-startcontinuousupdate)
-5. 🔄  [RestartCountdown](#-restartcountdown)
-6. 🔄  [Restart](#-restart)
-7. 🎨  [ResetTextBoxColors](#-resettextboxcolors)
-8. 📋  [button1_Click](#-button1-click)
+2. 🖱️  [Button_MouseDown](#button_mousedown)
+3. ⏳  [StartCountdown](#-startcountdown)  
+4. ✅  [CHECKSUBMIT](#-checksubmit) 
+5. 🔄  [StartContinuousUpdate](#-startcontinuousupdate)
+6. 🔄  [RestartCountdown](#-restartcountdown)
+7. 🔄  [Restart](#-restart)
+8. 🎨  [ResetTextBoxColors](#-resettextboxcolors)
+9. 📋  [button1_Click](#-button1-click)
 
 ## 🧩 Metoder PART 2
 1. 🌟 [IncrementSteakText_Display](#-incrementsteaktext_display)
@@ -25,7 +26,7 @@ Velkommen til Hundredetal Spillet! 🎉 Dette er et interaktivt program, hvor du
 4. 🔢 [TextBox_KeyPress](#-textbox_keypress)
 5. 📊 [PopulateTaloversigt](#-populatetaloversigt)
 6. 🔄 [Enable_Disable_HELP_TOOL_Click](#-enable_disable_help_tool_click)
-7. ⏲️ [timer8_Tick](#-timer8_tick)
+7. ⏲️ [timer8_Tick](#-timer8_tick) 
    
   
   
