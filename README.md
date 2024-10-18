@@ -23,7 +23,7 @@ Velkommen til Hundredetal Spillet! 🎉 Dette er et interaktivt program, hvor du
 ## 🧩 Metoder PART 2
 1. 🌟 [IncrementSteakText_Display](#-incrementsteaktext_display)
 2. 🔄 [AreAllTextBoxesFilled](#-arealltextboxesfilled)
-3. ✔️ [RETRY_BTN_Click](#-retry_btn_click)
+3. 🔄 [RETRY_BTN_Click](#-retry_btn_click)
 4. 🔢 [TextBox_KeyPress](#-textbox_keypress)
 5. 📊 [PopulateTaloversigt](#-populatetaloversigt)
 6. 🔄 [Enable_Disable_HELP_TOOL_Click](#-enable_disable_help_tool_click)
