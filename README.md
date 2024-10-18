@@ -2,13 +2,17 @@
 
 Velkommen til Hundredetal Spillet! 🎉 Dette er et interaktivt program, hvor du skal finde tal, der relaterer sig til et tilfældigt valgt hundredetal. 🤔✨
 
-##  Indholdsfortegnelse
+## 🧩 Metoder
 1. [Funktioner](#-funktioner)
 2. [Flowchart](#-flowchart)
-3. [Funktioner](#-funktioner)
-4. [Funktioner](#-funktioner)
-5. [Funktioner](#-funktioner)
-
+3. [Button_MouseDown](#-button-mousedown)
+4. [StartCountdown](#-startcountdown)
+5. [StartContinuousUpdate](#-startcontinuousupdate)
+5. [StartContinuousUpdate](#-startcontinuousupdate)
+6. [RestartCountdown](#-restartcountdown)
+7. [Restart](#-restart)
+8. [ResetTextBoxColors](#-resettextboxcolors)
+9. [button1_Click](#-button1_click)
 ## 📝 Oversigt
 
 🎮👶 **Børne Spil** er en Windows Forms-applikation, der opfordrer børn til at øve matematik ved at løse simple taludfordringer. 🧠💡 Spillet præsenterer et tilfældigt tal og kræver, at spillerne beregner og indtaster fire svar relateret til dette tal:
