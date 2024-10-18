@@ -8,11 +8,11 @@ Velkommen til Hundredetal Spillet! 🎉 Dette er et interaktivt program, hvor du
 
 
 ## 🧩 Metoder
-2. 🖱️ [Button_MouseDown](#-button_mousedown)
-3. ⏳ [StartCountdown](#-startcountdown)  
+2. 🖱️  [Button_MouseDown](#-button_mousedown)
+3. ⏳  [StartCountdown](#-startcountdown)  
 4. ✅ [CHECKSUBMIT](#-checksubmit) 
-5.  [StartContinuousUpdate](#-startcontinuousupdate)
-6.  [RestartCountdown](#-restartcountdown)
+5. 🔄 [StartContinuousUpdate](#-startcontinuousupdate)
+6. 🔄 [RestartCountdown](#-restartcountdown)
 7.  [Restart](#-restart)
 8.  [ResetTextBoxColors](#-resettextboxcolors)
 9.  [button1_Click](#-button1-click)
@@ -144,7 +144,7 @@ private async void StartContinuousUpdate()
     });
 }
  
- 
+  ```
   
 ## 🔄 RestartCountdown
 -  Restarts the countdown timer, resetting it to 20 seconds and updating the displayed countdown time in the UI.
