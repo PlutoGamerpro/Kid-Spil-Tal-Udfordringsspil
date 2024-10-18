@@ -5,29 +5,42 @@ Velkommen til Hundredetal Spillet! 🎉 Dette er et interaktivt program, hvor du
 ## ✨ Functions
 1. ✨ [Funktioner](#-funktioner)
 
+---
 
 ## 📊 UI / Diagrammer
- 1. 📊 [Flowchart Beskrivelse for "Børne Spil"](#-flowchart-beskrivelse-for-børne-spil)
- 2. 🎨 [UI GAME](#-ui-game) 
+1. 📊 [Flowchart Beskrivelse for "Børne Spil"](#-flowchart-beskrivelse-for-børne-spil)
+2. 🎨 [UI GAME](#-ui-game)
 
-## 🧩 Metoder PART 1
-1. 🖱️ [Button MouseDown](#-button-mousedown) 
-2. ⏳  [StartCountdown](#-startcountdown)  
-3. ✅  [CHECKSUBMIT](#-checksubmit) 
-4. 🔄  [StartContinuousUpdate](#-startcontinuousupdate)
-5. 🔄  [RestartCountdown](#-restartcountdown)
-6. 🔄  [Restart](#-restart)
-7. 🎨  [ResetTextBoxColors](#-resettextboxcolors)
-8. 📋  [button1_Click](#-button1-click)
+---
 
-## 🧩 Metoder PART 2
-1. 🌟 [IncrementSteakText_Display](#-incrementsteaktext_display)
-2. 🔄 [AreAllTextBoxesFilled](#-arealltextboxesfilled)
-3. 🔄 [RETRY_BTN_Click](#-retry_btn_click)
+## 🧩 Metoder PART 1: Restart and Related Functions
+1. 🔄 [Restart](#-restart)
+2. 🔄 [RestartCountdown](#-restartcountdown)
+3. 🔄 [StartContinuousUpdate](#-startcontinuousupdate)
+
+---
+
+## 🧩 Metoder PART 2: Input Handling
+1. 🖱️ [Button MouseDown](#-button-mousedown)
+2. ✅ [CHECKSUBMIT](#-checksubmit)
+3. ⏳ [StartCountdown](#-startcountdown)
+4. 📋 [button1_Click](#-button1-click)
+
+---
+
+## 🧩 Metoder PART 3: Text Box Management
+1. 🎨 [ResetTextBoxColors](#-resettextboxcolors)
+2. 🌟 [IncrementSteakText_Display](#-incrementsteaktext_display)
+3. 🔄 [AreAllTextBoxesFilled](#-arealltextboxesfilled)
 4. 🔢 [TextBox_KeyPress](#-textbox_keypress)
-5. 📊 [PopulateTaloversigt](#-populatetaloversigt)
-6. 🔄 [Enable_Disable_HELP_TOOL_Click](#-enable_disable_help_tool_click)
-7. ⏲️ [Timer8_Tick](#-timer8_tick) 
+
+---
+
+## 🧩 Metoder PART 4: Timer and Utility Functions
+1. ⏲️ [Timer8_Tick](#-timer8_tick)
+2. 🔄 [Enable_Disable_HELP_TOOL_Click](#-enable_disable_help_tool_click)
+3. 🔄 [RETRY_BTN_Click](#-retry_btn_click)
+4. 📊 [PopulateTaloversigt](#-populatetaloversigt)
    
   
   
