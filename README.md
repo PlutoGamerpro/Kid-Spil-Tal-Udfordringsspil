@@ -73,10 +73,6 @@ private void Button_MouseDown(object sender, MouseEventArgs e)
 ```
 ## ⏳ StartCountdown
 - Initializes the countdown timer to 20 seconds and updates the UI to display the starting time with an hourglass emoji.
-
-
-## 🔄 StartContinuousUpdate
-- Starts an asynchronous continuous update loop that checks if all text boxes are filled every 16 milliseconds, simulating a frame rate of approximately 60 FPS
  ```csharp
 private void StartCountdown()
 {
@@ -85,8 +81,8 @@ private void StartCountdown()
 }
 ```
 
-## ✅ CHECKSUBMIT
-- Checks if all input text boxes are filled. If they are, enables the button to check answers and updates its appearance.
+## 🔄 StartContinuousUpdate
+- Starts an asynchronous continuous update loop that checks if all text boxes are filled every 16 milliseconds, simulating a frame rate of approximately 60 FPS
  ```csharp
 private async void StartContinuousUpdate()
 {
@@ -101,9 +97,8 @@ private async void StartContinuousUpdate()
     });
 }
   ```
-  
-## 🔄 RestartCountdown
--  Restarts the countdown timer, resetting it to 20 seconds and updating the displayed countdown time in the UI.
+## ✅ CHECKSUBMIT
+- Checks if all input text boxes are filled. If they are, enables the button to check answers and updates its appearance.
  ```csharp
   private void CHECKSUBMIT()
 {
@@ -118,9 +113,10 @@ private async void StartContinuousUpdate()
     }
 }
 ```
-
-## 🔄 Restart
-- Resets the game state, clearing text boxes and resetting colors. Generates a new random number and updates the UI accordingly.
+ 
+  
+## 🔄 RestartCountdown
+-  Restarts the countdown timer, resetting it to 20 seconds and updating the displayed countdown time in the UI.
  ```csharp
   private void RestartCountdown()
 {
@@ -130,9 +126,9 @@ private async void StartContinuousUpdate()
 }
 ```
 
-## 📋 button1_Click
- - Handles the click event for the check answers button. Retrieves user inputs, checks them against correct answers, and updates the UI if all answers are correct.
-```csharp
+## 🔄 Restart
+- Resets the game state, clearing text boxes and resetting colors. Generates a new random number and updates the UI accordingly.
+ ```csharp
 private void Restart()
 {
     panel1.Visible = false;
@@ -153,23 +149,87 @@ private void Restart()
     PopulateTaloversigt();
     CHECKButtonState();
 }
+
+```
+## 🎨 ResetTextBoxColors
+-  Resets the background colors of the input text boxes to white and the countdown label to a green color
+ ```csharp
+private void ResetTextBoxColors()
+{
+    textBox1.BackColor = Color.White;
+    textBox2.BackColor = Color.White;
+    textBox3.BackColor = Color.White;
+    textBox4.BackColor = Color.White;
+
+    LABEL_COUNTDOWN.ForeColor = Color.LimeGreen;
+}
+```
+
+
+## 📋 button1_Click ✅
+ - Handles the click event for the check answers button. Retrieves user inputs, checks them against correct answers, and updates the UI if all answers are correct.
+```csharp
+private void button1_Click(object sender, EventArgs e)
+{
+    int[] userInputs = new int[]
+    {
+        Convert.ToInt32(textBox1.Text),
+        Convert.ToInt32(textBox2.Text),
+        Convert.ToInt32(textBox3.Text),
+        Convert.ToInt32(textBox4.Text)
+    };
+
+    answerChecker.CheckAnswers(userInputs, game, new TextBox[] { textBox1, textBox2, textBox3, textBox4 });
+
+    if (AnswerChecker.AllAnswersCorrect)
+    {
+        timer8.Stop();
+        IncrementSteakText_Display();
+        label9.Text = "Congrats! You beat the clock and won!";
+        button2.Visible = true;
+        button4.Visible = true;
+        panel1.Visible = true;
+    }
+}
 ```
 
 ## 🌟 IncrementSteakText_Display
 - Increments the player's streak score each time they succeed and updates the displayed score on the UI.
-
+```csharp
+- private void IncrementSteakText_Display()
+{
+    AnswerChecker.StreakScore++;
+    STEAKTEXT.Text = AnswerChecker.StreakScore.ToString();
+}
+```
 ## 🔄 ResetSteakTest_Display
 - Resets the player's streak score to zero and updates the UI to reflect this change.
- 
-## 🎨 ResetTextBoxColors
--  Resets the background colors of the input text boxes to white and the countdown label to a green colo
+ ```csharp
+private void ResetSteakTest_Display()
+{
+    AnswerChecker.StreakScore = 0;
+    STEAKTEXT.Text = AnswerChecker.StreakScore.ToString();
+}
+
+```
 
 
 ## ✔️ AreAllTextBoxesFilled
 -  Checks if all text boxes are filled with input. Returns true if all are filled; otherwise, returns false.
+ ```csharp
+private bool AreAllTextBoxesFilled()
+{
+    return !string.IsNullOrEmpty(textBox1.Text) &&
+           !string.IsNullOrEmpty(textBox2.Text) &&
+           !string.IsNullOrEmpty(textBox3.Text) &&
+           !string.IsNullOrEmpty(textBox4.Text);
+}
+
+```
 
 ## 🔄 RETRY_BTN_Click
 - Handles the click event for the retry button. Restarts the game by calling the Restart method.
+- 
 
 ## 🔢 TextBox_KeyPress
 - Restricts input in the text boxes to numeric characters only, handling and ignoring non-numeric input.
@@ -198,44 +258,8 @@ private void textBox1_KeyPress(object sender, KeyPressEventArgs e)
 ## ✅ Tjekker om svarene er korrekte
 - Når brugeren klikker på knappen for at indsende sine svar, tjekker programmet, om de indtastede værdier stemmer overens med de korrekte svar:
 - CheckAnswer: Funktion, der sammenligner brugerens input med de korrekte svar og farvekoder felterne (grøn = korrekt, rød = forkert).
- ```csharp
-private void CheckAnswer()
-{
-    int UserInput_TextBox1 = Convert.ToInt16(textBox1.Text);
-    int UserInput_TextBox2 = Convert.ToInt16(textBox2.Text);
-    int UserInput_TextBox3 = Convert.ToInt16(textBox3.Text);
-    int UserInput_TextBox4 = Convert.ToInt16(textBox4.Text);
 
-    if(UserInput_TextBox1 == Correct_answerbox1) { textBox1.BackColor = Color.LightGreen; }
-    else { textBox1.BackColor = Color.Red; }
 
-    if (UserInput_TextBox2 == Correct_answerbox2) { textBox2.BackColor = Color.LightGreen; }
-    else { textBox2.BackColor = Color.Red; }
-
-    if (UserInput_TextBox3 == Correct_answerbox3) { textBox3.BackColor = Color.LightGreen; }
-    else { textBox3.BackColor = Color.Red; }
-
-    if (UserInput_TextBox4 == Correct_answerbox4) { textBox4.BackColor = Color.LightGreen; }
-    else { textBox4.BackColor = Color.Red; }
-}
-
-```
-## 🔄 Genstart spillet
-- Efter at have svaret på opgaverne, kan brugeren vælge at genstarte spillet, hvilket rydder tekstfelterne og genererer et nyt tilfældigt tal:
-- Restart: Funktion der nulstiller tekstfelterne og sætter grænsefladen tilbage til starttilstand.
- ```csharp
-textBox1.Text = "";
-    textBox2.Text = "";
-    textBox3.Text = "";
-    textBox4.Text = "";
-
-    textBox1.BackColor = Color.White;
-    textBox2.BackColor = Color.White;
-    textBox3.BackColor = Color.White;
-    textBox4.BackColor = Color.White;
-
-    RND(); // Genererer nyt tilfældigt tal
-```
 ## 🎨 Feedback til spilleren
 - Farvekoderne i tekstfelterne er en vigtig del af spillet, da de giver øjeblikkelig feedback til brugeren. Når brugeren har indtastet deres svar og trykket på knappen, får de visuel feedback, så de kan se, hvor de har svaret korrekt eller forkert.
 
