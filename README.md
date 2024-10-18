@@ -4,7 +4,7 @@ Velkommen til Hundredetal Spillet! 🎉 Dette er et interaktivt program, hvor du
 
 
 ## 📊 Flowchart
- 0. [Flowchart Beskrivelse for "Børne Spil"](#-flowchart-beskrivelse-for-børne-spil)
+ 1. [Flowchart Beskrivelse for "Børne Spil"](#-flowchart-beskrivelse-for-børne-spil)
 
 
 ## 🧩 Metoder
