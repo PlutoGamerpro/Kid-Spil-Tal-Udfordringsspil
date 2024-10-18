@@ -13,9 +13,9 @@ Velkommen til Hundredetal Spillet! 🎉 Dette er et interaktivt program, hvor du
 7. [Restart](#-restart)
 8. [ResetTextBoxColors](#-resettextboxcolors)
 9. [button1_Click](#-button1-click)
-10. [IncrementSteakText_Display](#-incrementsteaktext-display)
+10. [IncrementSteakText_Display](#-incrementsteaktext_display)
 11. [AreAllTextBoxesFilled](#-arealltextboxesfilled)
-12. [AreAllTextBoxesFilled](#-retry-btn-click)
+12. [AreAllTextBoxesFilled](#-retry_btn_click)
 13. 
    
 ## 📝 Oversigt
