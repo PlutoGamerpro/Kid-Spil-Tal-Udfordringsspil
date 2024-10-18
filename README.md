@@ -8,21 +8,21 @@ Velkommen til Hundredetal Spillet! 🎉 Dette er et interaktivt program, hvor du
 
 
 ## 🧩 Metoder
-2. [Button_MouseDown](#-button_mousedown)
-3. [StartCountdown](#-startcountdown)
-4. [StartContinuousUpdate](#-startcontinuousupdate)
-5. [StartContinuousUpdate](#-startcontinuousupdate)
-6. [RestartCountdown](#-restartcountdown)
-7. [Restart](#-restart)
-8. [ResetTextBoxColors](#-resettextboxcolors)
-9. [button1_Click](#-button1-click)
-10.[IncrementSteakText_Display](#-incrementsteaktext_display)
-11.[AreAllTextBoxesFilled](#-arealltextboxesfilled)
-12.[RETRY_BTN_Click](#-retry_btn_click)
-13.[TextBox_KeyPress](#-textbox_keypress) 
-14.[PopulateTaloversigt](#-populatetaloversigt)  
-15 [Enable_Disable_HELP_TOOL_Click](#-enable_disable_help_tool_click) 
-16 [timer8_Tick](#-timer8_tick)
+2.  [Button_MouseDown](#-button_mousedown)
+3.  [StartCountdown](#-startcountdown)
+4.  [StartContinuousUpdate](#-startcontinuousupdate)
+5.  [StartContinuousUpdate](#-startcontinuousupdate)
+6.  [RestartCountdown](#-restartcountdown)
+7.  [Restart](#-restart)
+8.  [ResetTextBoxColors](#-resettextboxcolors)
+9.  [button1_Click](#-button1-click)
+10. [IncrementSteakText_Display](#-incrementsteaktext_display)
+11. [AreAllTextBoxesFilled](#-arealltextboxesfilled)
+12. [RETRY_BTN_Click](#-retry_btn_click)
+13. [TextBox_KeyPress](#-textbox_keypress) 
+14. [PopulateTaloversigt](#-populatetaloversigt)  
+15. [Enable_Disable_HELP_TOOL_Click](#-enable_disable_help_tool_click) 
+16. [timer8_Tick](#-timer8_tick)
 19. 
 20. 
 
