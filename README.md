@@ -229,21 +229,102 @@ private bool AreAllTextBoxesFilled()
 
 ## 🔄 RETRY_BTN_Click
 - Handles the click event for the retry button. Restarts the game by calling the Restart method.
-- 
+ ```csharp
+private void RETRY_BTN_Click(object sender, EventArgs e)
+{
+    Restart();
+}
+```
 
 ## 🔢 TextBox_KeyPress
 - Restricts input in the text boxes to numeric characters only, handling and ignoring non-numeric input.
+ ```csharp
+  - private void TextBox_KeyPress(object sender, KeyPressEventArgs e)
+{
+    e.Handled = !char.IsControl(e.KeyChar) && !char.IsNumber(e.KeyChar);
+}
+```
 
 ## 📊 PopulateTaloversigt
 -  Populates a helper tool matrix with numbers, dynamically creating rows and columns while highlighting a specific cell based on a random number.
+ ```csharp
+  private void PopulateTaloversigt()
+{
+    int totalColumns = 10;
+    int totalRows = 10;
+    int number = 1;
+
+    Helping_Tool_mat.Rows.Clear();
+    Helping_Tool_mat.Columns.Clear();
+
+    int maxTotalWidth = 800; // Maximum width in pixels
+    int columnWidth = maxTotalWidth / totalColumns; // Calculate width per column
+
+    for (int col = 0; col < totalColumns; col++)
+    {
+        Helping_Tool_mat.Columns.Add("col" + col, (col + 1).ToString());
+        Helping_Tool_mat.Columns[col].Width = columnWidth; // Set the calculated width for each column
+    }
+
+    Helping_Tool_mat.RowTemplate.Height = 30; // Set fixed row height
+
+    for (int row = 0; row < totalRows; row++)
+    {
+        Helping_Tool_mat.Rows.Add(); // Add a new row
+        for (int col = 0; col < totalColumns; col++)
+        {
+            Helping_Tool_mat.Rows[row].Cells[col].Value = number;
+
+            if (number == RandomNumHighligt)
+            {
+                Helping_Tool_mat.Rows[row].Cells[col].Style.Font = new Font("MV Boli", 8.25F, FontStyle.Bold);
+                Helping_Tool_mat.Rows[row].Cells[col].Style.BackColor = Color.Navy; // Highlight the cell
+                Helping_Tool_mat.Rows[row].Cells[col].Style.ForeColor = Color.LimeGreen; // Highlight the cell
+            }
+
+            number++;
+        }
+    }
+}
+```
 
 ## 🔄 Enable_Disable_HELP_TOOL_Click
 -  Toggles the visibility of the helper tool matrix when the corresponding button is clicked and updates the button text.
-
+ ```csharp
+private void Enable_Disable_HELP_TOOL_Click(object sender, EventArgs e)
+{
+    Helping_Tool_mat.Visible = !Helping_Tool_mat.Visible;
+    Enable_Disable_HELP_TOOL.Text = Helping_Tool_mat.Visible ? "Disable Tool 🛠" : "Enable Tool 🛠️";
+}
+```
 
 ## ⏲️ timer8_Tick
 - Handles the countdown timer's tick event. Updates the countdown label and stops the timer when it reaches zero, displaying a message to the user.
+ ```csharp
+- private void timer8_Tick(object sender, EventArgs e)
+{
+    if (countdownTime > 0)
+    {
+        LABEL_COUNTDOWN.Text = countdownTime.ToString() + "⏳"; // Update the TextBox
 
+        LABEL_COUNTDOWN.ForeColor = countdownTime <= 9 ? Color.Red : Color.LimeGreen; // Set colors based on countdownTime
+        countdownTime--; // Decrement the countdown time
+    }
+    else
+    {
+        timer8.Stop(); // Stop the timer
+        label9.Text = "Time's up! Unfortunately, you couldn't finish in time. But don't worry—every challenge is a chance to improve. Get ready for your next attempt!";
+        LABEL_COUNTDOWN.Text = "0⏳";
+
+        button2.Visible = true;
+        button4.Visible = true;
+        panel1.Visible = true;
+
+        AnswerChecker.StreakScore = 0;
+        ResetSteakTest_Display();
+    }
+}
+```
   
 ## 🖊️ Brugeren indtaster svar i tekstfelte
 - Brugeren indtaster deres svar i fire tekstfelter. For hvert felt bliver input valideret, så kun tal er tilladt:
