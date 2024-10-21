@@ -36,7 +36,7 @@ This removes the Internet marking from the file so it can be processed correctly
 
 
 ## 🧩 Metoder
-#### Restart and Continuous Functions
+#### 🔄 Restart and Continuous Functions
 1. 🔄 [Restart](#-restart)
 2. 🔄 [RestartCountdown](#-restartcountdown)
 3. 🔄 [StartContinuousUpdate](#-startcontinuousupdate)
