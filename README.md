@@ -52,7 +52,7 @@ This removes the Internet marking from the file so it can be processed correctly
 1. 🎨 [ResetTextBoxColors](#-resettextboxcolors)
 2. 🌟 [IncrementSteakText_Display](#-incrementsteaktext_display)
 3. 🔄 [ResetSteakTest_Display](#-resetsteaktest_display)
-4. 🔄 [AreAllTextBoxesFilled](#-arealltextboxesfilled)
+4. 🔄 [AreAllTextBoxesFilled](#arealltextboxesfilled)
 5. 🔢 [TextBox_KeyPress](#-textbox_keypress)
 6. ⏲️ [Timer8_Tick](#-timer8_tick)
 7. 🔄 [Enable_Disable_HELP_TOOL_Click](#-enable_disable_help_tool_click)
@@ -260,7 +260,7 @@ private void ResetSteakTest_Display()
 ```
 
 
-## ✔️ AreAllTextBoxesFilled
+##AreAllTextBoxesFilled
 -  Checks if all text boxes are filled with input. Returns true if all are filled; otherwise, returns false.
  ```csharp
 private bool AreAllTextBoxesFilled()
