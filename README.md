@@ -260,7 +260,7 @@ private void ResetSteakTest_Display()
 ```
 
 
-##AreAllTextBoxesFilled
+## AreAllTextBoxesFilled
 -  Checks if all text boxes are filled with input. Returns true if all are filled; otherwise, returns false.
  ```csharp
 private bool AreAllTextBoxesFilled()
