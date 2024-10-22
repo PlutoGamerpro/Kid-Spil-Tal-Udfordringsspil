@@ -214,7 +214,7 @@ private void ResetTextBoxColors()
 
 
 ## 📋 button1_Click 
- - Handles the click event for the check answers button. Retrieves user inputs, checks them against correct answers, and updates the UI if all answers are correct.
+ -  A function that compares the user’s input with the correct answers and color codes the fields (green for correct, red for incorrect). This function handles the click event for the button that checks the answers, retrieves the user input, checks it against the correct answers, and updates the user interface if all answers are correct.
 ```csharp
 private void button1_Click(object sender, EventArgs e)
 {
@@ -382,10 +382,6 @@ private void textBox1_KeyPress(object sender, KeyPressEventArgs e)
     e.Handled = !char.IsControl(e.KeyChar) && !char.IsNumber(e.KeyChar); // Kun tal er tilladt
 }
 ```
-
-## ✅ Tjekker om svarene er korrekte
-- Når brugeren klikker på knappen for at indsende sine svar, tjekker programmet, om de indtastede værdier stemmer overens med de korrekte svar:
-- CheckAnswer: Funktion, der sammenligner brugerens input med de korrekte svar og farvekoder felterne (grøn = korrekt, rød = forkert).
 
 
 ## 🎨 Feedback til spilleren
