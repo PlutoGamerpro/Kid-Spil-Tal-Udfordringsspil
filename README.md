@@ -210,7 +210,7 @@ private void ResetTextBoxColors()
 ```
 
 
-## 📋 button1_Click ✅ 
+## 📋 button1_Click 
  - Handles the click event for the check answers button. Retrieves user inputs, checks them against correct answers, and updates the UI if all answers are correct.
 ```csharp
 private void button1_Click(object sender, EventArgs e)
