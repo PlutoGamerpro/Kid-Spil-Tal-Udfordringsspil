@@ -372,7 +372,7 @@ private void Enable_Disable_HELP_TOOL_Click(object sender, EventArgs e)
 }
 ```
   
-## 🖊️Brugeren_indtaster_svar_i_tekstfelte
+## Brugeren_indtaster_svar_i_tekstfelte
 - Brugeren indtaster deres svar i fire tekstfelter. For hvert felt bliver input valideret, så kun tal er tilladt:
 - KeyPress: Sørger for, at brugeren kun kan indtaste numeriske værdier.
 ```csharp
