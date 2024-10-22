@@ -45,7 +45,7 @@ This removes the Internet marking from the file so it can be processed correctly
 1. 🖱️ [Button MouseDown](#-button-mousedown)
 2. ✅ [CHECKSUBMIT](#-checksubmit)
 3. ⏳ [StartCountdown](#-startcountdown)
-4. 📋 [button1_Click](#-button1_click-#)
+4. 📋 [button1_Click](#-button1_click)
 
 #### ⏰ Text Box and Timer Management 
 1. 🎨 [ResetTextBoxColors](#-resettextboxcolors)
