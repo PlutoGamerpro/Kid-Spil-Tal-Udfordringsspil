@@ -45,7 +45,7 @@ This removes the Internet marking from the file so it can be processed correctly
 1. 🖱️ [Button MouseDown](#-button-mousedown)
 2. ✅ [CHECKSUBMIT](#-checksubmit)
 3. ⏳ [StartCountdown](#-startcountdown)
-4. 📋 [button1_Click](#-button1-click-#)
+4. 📋 [button1_Click](#-button1-click)
 
 #### ⏰ Text Box and Timer Management 
 1. 🎨 [ResetTextBoxColors](#-resettextboxcolors)
@@ -210,7 +210,7 @@ private void ResetTextBoxColors()
 ```
 
 
-## 📋 button1_Click ✅
+## ✅ button1_Click 
  - Handles the click event for the check answers button. Retrieves user inputs, checks them against correct answers, and updates the UI if all answers are correct.
 ```csharp
 private void button1_Click(object sender, EventArgs e)
