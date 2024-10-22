@@ -92,15 +92,21 @@ Spillet giver realtidsfeedback om brugernes inputnøjagtighed, så alle kan lær
 - Correct_answerboxX: Hver variabel repræsenterer et korrekt svar baseret på det tilfældige tal.
 ```csharp
 
-Random rand1 = new Random();
-Random_Number = rand1.Next(11, 89);  // Genererer et tilfældigt tal
-stxNumber.Text = Convert.ToString(Random_Number);  // Viser det i grænsefladen
+ public class Game
+    {
+        public int RandomNumber { get; private set; }
+        public int CorrectAnswerBox1 => RandomNumber + 10;
+        public int CorrectAnswerBox2 => RandomNumber + 1;
+        public int CorrectAnswerBox3 => RandomNumber - 10;
+        public int CorrectAnswerBox4 => RandomNumber - 1;
 
-// Sætter de korrekte svar baseret på det tilfældige tal
-Correct_answerbox1 = Random_Number + 10;
-Correct_answerbox2 = Random_Number + 1;
-Correct_answerbox3 = Random_Number - 10;
-Correct_answerbox4 = Random_Number - 1;
+        private Random rand = new Random();
+
+        public void GenerateRandomNumber()
+        {
+            RandomNumber = rand.Next(11, 89);
+        }
+    }
 
 ```
 ## Button MouseDown 
