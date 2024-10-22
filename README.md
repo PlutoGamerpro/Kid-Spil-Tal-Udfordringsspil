@@ -42,7 +42,7 @@ This removes the Internet marking from the file so it can be processed correctly
 3. 🔄 [StartContinuousUpdate](#-startcontinuousupdate)
 
 #### ✏️ Input and Interaction Handling
-1. 🖱️ [Button MouseDown](#-button-mousedown)
+1. 🖱️ [Button_MouseDown](#-button_mousedown)
 2. ✅ [CHECKSUBMIT](#-checksubmit)
 3. ⏳ [StartCountdown](#-startcountdown)
 4. 📋 [button1_Click](#-button1_click)
@@ -103,7 +103,7 @@ Correct_answerbox3 = Random_Number - 10;
 Correct_answerbox4 = Random_Number - 1;
 
 ```
-## 🖱️ Button MouseDown 
+## 🖱️ Button_MouseDown 
  - Description:
 Handles the MouseDown event for buttons. When a button is pressed, it reduces its size slightly, providing visual feedback.
 ```csharp
