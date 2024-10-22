@@ -392,7 +392,7 @@ private void textBox1_KeyPress(object sender, KeyPressEventArgs e)
 
 ## 🎮 Flowchart Beskrivelse for "Børne Spil"
 
-![Diagram Description](images/BørnespilDiagram1.svg)
+![Diagram Description](images/Børnespilflowchart.svg)
 
 ### 🖥️ Start
 Spillet starter, når applikationen åbnes. 
