@@ -46,7 +46,7 @@ This removes the Internet marking from the file so it can be processed correctly
 2. ✅ [CHECKSUBMIT](#-checksubmit)
 3. ⏳ [StartCountdown](#-startcountdown)
 4. 📋 [button1_Click](#-button1_click)
-5. 🖊️[Brugeren indtaster svar i tekstfelte](#-brugeren-indtaster-svar-i-tekstfelte)
+5. 🖊️ [Brugeren indtaster svar i tekstfelte](#-brugeren-indtaster-svar-i-tekstfelte)
 
 #### ⏰ Text Box and Timer Management  
 1. 🎨 [ResetTextBoxColors](#-resettextboxcolors)
