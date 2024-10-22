@@ -387,7 +387,7 @@ private void textBox1_KeyPress(object sender, KeyPressEventArgs e)
 ## 🎨 Feedback til spilleren
 - Farvekoderne i tekstfelterne er en vigtig del af spillet, da de giver øjeblikkelig feedback til brugeren. Når brugeren har indtastet deres svar og trykket på knappen, får de visuel feedback, så de kan se, hvor de har svaret korrekt eller forkert.
 
-
+![Diagram Description](images/Farvecode.png)
 
 
 ## 🎮 Flowchart Beskrivelse for "Børne Spil"
