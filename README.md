@@ -55,7 +55,7 @@ This removes the Internet marking from the file so it can be processed correctly
 3. 🔄 [ResetSteakTest_Display](#-resetsteaktest_display)
 4. 🔄 [AreAllTextBoxesFilled](#arealltextboxesfilled)
 5. 🔢 [TextBox_KeyPress](#-textbox_keypress)
-6. ⏲️ [Timer8_Tick](timer8_tick)
+6. ⏲️ [Timer8_Tick](#timer8_tick)
 7. 🔄 [Enable_Disable_HELP_TOOL_Click](#-enable_disable_help_tool_click)
 8. 🔄 [RETRY_BTN_Click](#-retry_btn_click)
 9. 📊 [PopulateTaloversigt](#-populatetaloversigt)
